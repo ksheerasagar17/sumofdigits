@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace sumofdigitsis3
+namespace sumofdigits
 {
     class Program
     {
@@ -9,15 +9,16 @@ namespace sumofdigitsis3
             var from = 1200;
             var to = 1259;
             var increment = 1;
-            StartPrinting(from, to, increment);
+            var sumEquals = 3;
+            StartPrinting(from, to, increment, sumEquals);
         }
 
-        static private void StartPrinting(int from, int to, int increment)
+        static private void StartPrinting(int from, int to, int increment, int sumEquals)
         {
             for (int i = from; i <= to; i = (i + increment))
             {
                 var sumOfAlldigits = SumUpAllDigits(i);
-                if (sumOfAlldigits == 3)
+                if (sumOfAlldigits == sumEquals)
                 {
                     Console.WriteLine(i);
                 }
