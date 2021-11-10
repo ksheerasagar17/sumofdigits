@@ -1,4 +1,4 @@
-# sumofdigitsis3
+# sumofdigits
 
 ## Purpose
 This program automatically generates sum of all the digits in between two numbers (including) that are equal to a number.
