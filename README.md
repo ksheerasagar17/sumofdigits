@@ -22,16 +22,20 @@ var sumEquals = 3;
 
 ## Build
 ```
+cd src; 
 dotnet build;
 ```
 ## Run
 ```
+cd src; 
 dotnet run;
 ```
 
 ## Build & Run
 ```
-dotnet build; dotnet run;
+cd src; 
+dotnet build; 
+dotnet run;
 ```
 
 ## Screenshot
